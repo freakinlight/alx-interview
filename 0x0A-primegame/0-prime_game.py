@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def sieve_of_eratosthenes(max_n):
     """Returns a list of primes up to max_n."""
     sieve = [True] * (max_n + 1)
@@ -39,4 +40,3 @@ def isWinner(x, nums):
         return "Ben"
     else:
         return None
-
