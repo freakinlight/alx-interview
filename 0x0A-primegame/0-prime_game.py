@@ -6,6 +6,7 @@ The player unable to make a move loses the game.
 This module determines the winner after x rounds of the game.
 """
 
+
 def sieve_of_eratosthenes(max_n):
     """Returns a list of primes up to max_n."""
     sieve = [True] * (max_n + 1)
@@ -16,6 +17,7 @@ def sieve_of_eratosthenes(max_n):
                 sieve[j] = False
     primes = [i for i in range(max_n + 1) if sieve[i]]
     return primes, sieve
+
 
 def isWinner(x, nums):
     """Determines the overall winner."""
