@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-
+"""
+Prime Game module.
+Maria and Ben take turns picking a prime number from a set of integers.
+The player unable to make a move loses the game.
+This module determines the winner after x rounds of the game.
+"""
 
 def sieve_of_eratosthenes(max_n):
     """Returns a list of primes up to max_n."""
